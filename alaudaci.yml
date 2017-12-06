@@ -1,6 +1,6 @@
 version: "0.1.0"
 pre_ci_boot:
- image: index.alauda.cn/demo100/compile
+ image: index.alauda.cn/alaudademo15/compile
  tag: "latest"
 ci:
  - mvn package
