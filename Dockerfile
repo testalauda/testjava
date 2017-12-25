@@ -1,4 +1,4 @@
-FROM alaudademo15-alaudademo15.customerindex.alauda.cn:5000/tomcat
+FROM 10.0.0.4:5000:tomcat
 
 ADD docker-demo.war /usr/local/apache-tomcat-6.0.45/webapps/
 
