@@ -6,9 +6,3 @@ ci:
  - mvn package
  - cp target/docker-demo.war $ALAUDACI_DEST_DIR
  - cp Dockerfile $ALAUDACI_DEST_DIR
-sonarqube:
- code_encoding: "UTF-8"
- code_language: "java"
- code_scan_path: "src"
- integration_name: "52520a28-acb2-43f5-8d0c-1a4598d8372b"
- quality_gate: "SonarQube way"
