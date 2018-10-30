@@ -1,4 +1,4 @@
-FROM 10.29.0.5:5000/shares/tomcat:8.5.29-jre8
+FROM alaudademo06-alaudademo06.customerindex.alauda.cn:5000/autobuild/tomcat
 
 ADD docker-demo.war /usr/local/tomcat/webapps/
 
